@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - made By Shivang Ranjan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="weatherapp">
+
+        <header class="header">
+            <div class="logo">☁</div>
+            <h1>Weather App</h1>
+        </header>
+
+        <section class="display">
+            <img src="img/sun.png" alt="Weather icon" class="icon">
+            <h2 id="temperature">__°C</h2>
+        </section>
+
+        <section class="search">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchButton">⌕ Search</button>
+        </section>
+
+        <section class="details">
+
+            <div class="temperature">
+                <div class="icon">🌡️</div>
+                <div>
+                    <p>Temperature</p>
+                    <h3 id="tempDetails">__°C</h3>
+                </div>
+            </div>
+
+            <div class="humidity">
+                <div class="icon">💧</div>
+                <div>
+                    <p>Humidity</p>
+                    <h3 id="humidity">__%</h3>
+                </div>
+            </div>
+
+            <div class="wind">
+                <div class="icon">💨</div>
+                <div>
+                    <p>Wind</p>
+                    <h3 id="wind">__ km/h</h3>
+                </div>
+            </div>
+
+            <div class="rain">
+                <div class="icon">🌧️</div>
+                <div>
+                    <p>Rain</p>
+                    <h3 id="rain">__ mm</h3>
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <h1>About This Project</h1>
+        <hr class="line">
+        <p>Hi, I'm Shivang Ranjan, a B.Tech CSE (AI & ML) student. I built this weather app after learning the basics of
+            HTML, CSS, and JavaScript, to understand how a real project works.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
