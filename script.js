@@ -1,7 +1,3 @@
-
-// OpenWeatherMap API key
-//
-
 // HTML elements
 const cityInput = document.getElementById("cityInput");
 const searchButton = document.getElementById("searchButton");
